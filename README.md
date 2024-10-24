@@ -30,7 +30,7 @@ Now starting with only the left and right, since they have a higher chance of be
 
 Since each L or R have a 1/4 chance of being bad we get a $\frac{1}{4^3} = \frac{1}{64}$ * 8 for each possible combo = $\frac{8}{64}$ $\approx$ = 12.5% of a bad pivot.
 
-Now we have to take combinations of left, right, and middle because even though middle is good almost for sure, the introduction of left and right will lower the chances of a good pivot
+Now we have to take combinations of left, right, and middle because even though middle is good almost fIor sure, the introduction of left and right will lower the chances of a good pivot
 
 So possible combinations are: LLM, LML, MLL, RRM, RMR, MRR
 
@@ -41,7 +41,7 @@ Adding these together we get 12.5 + 18.75 = 31.25% for a bad pivot total using t
 
 So far I really only needed the slides for this exercise, it was fairly straight forward probability.
 
-I will say however that I did take a brief gander at a couple other repositories to see if anyone had more streamlined ways to go about it.
+I felt that I was doing things in efficiently when I was working on my combinations so I took a look at Nolan and Clayton's repositories to see if anyone had any a better way of doing it but in the end their methods were already what I was doing so I just went about my business
 
 I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice
 
